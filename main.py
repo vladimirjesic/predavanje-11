@@ -1,4 +1,5 @@
 import json
+import sys
 
 user = None
 max_budget = 100000
@@ -7,3 +8,11 @@ with open("data/user.json", "r") as file:
 user_budget = user['budget']
 if(user_budget < 0 or user_budget > max_budget):
     print("Budzet ne sme da bude manji od 0 ili veci od 100.000")
+    sys.exit()
+
+print(f"Dobar dan. Dobrodosli nazad, Vas budzet iznosi {user_budget}")
+
+expense = 0
+
+while(expense <= 0):
+    expense = int(input("Unesite iznos Vaseg troska: "))
