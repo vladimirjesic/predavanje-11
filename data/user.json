@@ -2,6 +2,7 @@
   "id": 1,
   "name": "Pera",
   "age": 31,
-  "budget": 5000,
+  "budget": 50000,
+  "credit": 33000,
   "currency": "eur"
 }

@@ -1,0 +1,2 @@
+Amount: 2000, User: 1, DateTime: 2026-04-08 20:51:14.109173, Budget: 83000, Remaining budget: 81000
+Amount: 1000, User: 1, DateTime: 2026-04-08 20:51:20.339311, Budget: 83000, Remaining budget: 82000
